@@ -12,7 +12,7 @@ export default function AllRecipesPage() {
       .finally(() => setLoading(false));
   }, []);
 
-  if (loading) return <p className="loading">Loading recipes...</p>;
+  if (loading) return <p className="loading">Loading recipes now...</p>;
 
   return <RecipeList recipes={recipes} title="All Recipes" />;
 }
