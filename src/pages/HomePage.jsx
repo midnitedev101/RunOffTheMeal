@@ -23,7 +23,7 @@ export default function HomePage() {
     <div className="home-page">
       <section className="hero">
         <h1>Run Off The Meal</h1>
-        <p>One experimental recipe a day. Cook along, rate, and share your own creations.</p>
+        <p>One recipe a day. Cook along, rate, and share your own creations.</p>
       </section>
 
       {daily && (
